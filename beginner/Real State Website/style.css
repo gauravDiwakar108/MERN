@@ -162,3 +162,111 @@ img {
   height: 250px;
   border-radius: 10rem;
 }
+
+/* rent container style  */
+
+.rent-container{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  /* border: 1px solid red; */
+  justify-content: center;
+  /* align-items: center; */
+  margin: 2rem auto;
+}
+
+.rent-about-container{
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+  width: 50%;
+  gap: 2rem;
+  margin-left: 7.8rem;
+  margin-bottom: 2rem;
+}
+
+.rent-heading{
+  font-size: 3rem;
+}
+.rent-para{
+  font-size: 1.3rem;
+}
+
+.rent-para span{
+  color: blue;
+}
+
+.view-more-btn{
+  width: 25%;
+  height: 2.5rem;
+  font-size: 1rem;
+  color: white;
+  background-color: black;
+  border-radius: 8px;
+  border: 0;
+}
+
+/* rent home container style  */
+
+.rent-home-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* border: 1px solid red; */
+  gap: 2rem;
+  margin: 0 auto;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.rent-card-container{
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 16px;
+}
+
+.card-1{
+    background: url('images/card_1.jpeg') center/cover no-repeat;
+}
+.card-2{
+    background: url('images/card_2.jpg') center/cover no-repeat;
+}
+.card-3{
+    background: url('images/card_3.jpeg') center/cover no-repeat;
+}
+.card-4{
+    background: url('images/card_4.jpeg') center/cover no-repeat;
+}
+.card-5{
+    background: url('images/card_5.jpeg') center/cover no-repeat;
+}
+.card-6{
+    background: url('images/card_6.jpeg') center/cover no-repeat;
+}
+
+.card{
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  right: 16px;
+
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+
+  border-radius: 16px;
+  padding: 16px;
+  color: #222;
+}
+
+.card .amount{
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.card .about-card{
+  margin: 6px 0 0;
+  font-size: 1rem;
+  color: #444;
+}
