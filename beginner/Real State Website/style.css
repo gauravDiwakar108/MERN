@@ -252,7 +252,7 @@ img {
   right: 16px;
 
   background: rgba(255, 255, 255, 0.85);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(1px);
 
   border-radius: 16px;
   padding: 16px;
@@ -261,7 +261,7 @@ img {
 
 .card .amount{
   margin: 0;
-  font-size: 2rem;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
