@@ -367,3 +367,33 @@ body {
 .selling-right img{
   border-radius: 16px;
 }
+
+.selling-option-lower-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2rem;
+  width: 100%;
+  background-color: #fbeced;
+  height: 20rem;
+}
+
+.values{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  /* margin: auto; */
+  gap: 1.2rem;
+}
+
+.values h2{
+  font-size: 3rem;
+}
+
+.values p{
+  font-size: 1.3rem;
+  font-weight: bold;
+}
