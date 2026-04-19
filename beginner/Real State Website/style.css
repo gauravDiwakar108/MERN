@@ -397,3 +397,11 @@ body {
   font-size: 1.3rem;
   font-weight: bold;
 }
+
+.explore-card{
+  width: 250px;
+}
+
+.about-left-card{
+  width: 250px;
+}
