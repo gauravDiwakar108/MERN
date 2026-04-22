@@ -18,7 +18,7 @@ nav{
 
 nav ul{
     list-style: none;
-    font-size: 5vw;
+    font-size: 2.5vw;
     font-family: "Roboto", sans-serif
 }
 
@@ -28,6 +28,7 @@ nav ul{
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    position: relative;
 }
 
 .container{
@@ -35,6 +36,7 @@ nav ul{
     grid-template-rows: repeat(3, 10vw);
     grid-template-columns: repeat(3, 10vw);
     font-family: 'Roboto', sans-serif;
+    position: relative;
 }
 
 .box{
@@ -50,14 +52,25 @@ nav ul{
     background-color: rgb(243, 219, 255);
 }
 
+.info{
+    font-size: 5vw;
+    font-weight: 250;
+}
+
 
 .gameInfo{
     padding: 0 34px;
     font-family: 'roboto', sans-serif;
 }
 
+.gameInfo h1{
+    font-size: 2.5rem;
+}
+
 .imgbox img{
-    display: none;
+    width: 0;
+    transition: width 1s ease-in-out;
+    /* display: none; */
 }
 
 .br-0{
@@ -73,4 +86,46 @@ nav ul{
 
 .bb-0{
     border-bottom: 0;
+}
+
+#reset{
+    margin: 0 23px;
+    padding: 1px 18px;
+    background-color: rgb(255, 184, 255);
+    border-radius: 6px;
+    cursor: pointer;
+    border: .5px;
+    font-family: 'segoe ui';
+    font-size: 2.5vw;
+    font-weight: 500;
+}
+
+.line{
+    background-color: rgb(165, 70, 215);
+    height: 5px;
+    width: 0vw;
+    position: absolute;
+    left: 0;
+    border-radius: 16px;
+    transition: width 1s ease-in-out;
+}
+
+
+@media screen and (max-width: 800px){
+    .gameContainer{
+        flex-wrap: wrap;
+    }
+
+    .gameInfo{
+        margin-top: 34px;
+    }
+
+    .gameInfo h1{
+        font-size: 1.5rem;
+    }
+
+    .container{
+        grid-template-rows: repeat(3, 20vw);
+        grid-template-columns: repeat(3, 20vw);
+    }
 }
