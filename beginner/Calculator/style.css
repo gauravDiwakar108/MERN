@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'segoe ui';
+}
+
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.button{
+    padding: 20px;
+    margin: 0 3px;
+    border: .5px solid black;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 65px;
+}
+
+.row{
+    margin: 8px 0;
+}
+
+.row input{
+    margin: 0;
+    padding: 10px 38px;
+    border: .5px solid black;
+    border-radius: 5px;
+    font-size: 18.3px;
+}
