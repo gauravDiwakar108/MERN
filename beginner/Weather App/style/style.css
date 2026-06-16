@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI';
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg, rgb(58, 56, 79) 50%, rgb(224, 186, 253));
+}
+
+/* main-container */
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 70%;
+    background: linear-gradient(150deg, rgb(106, 223, 219) 30%, rgb(194, 112, 234));
+    /* gap: 1rem; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+img{
+    width: 100px;
+}
+
+/* first container */
+.first{
+    display: flex;
+    justify-content: center;
+    /* margin: 10px 0; */
+    gap: 25px;
+    /* border: 1px solid red; */
+    width: 90%;
+}
+
+#search-bar{
+    width: 80%;
+    height: 5vh;
+    padding: 2px 15px;
+    border: none;
+    border-radius: 6px;
+}
+
+#search-bar:focus{
+    border: none;
+    outline: none;
+}
+
+#search-bar::placeholder{
+    color: black;
+}
+
+.search-btn{
+    width: 10%;
+    height: 5vh;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
+}
+
+/* second-container */
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0;
+    gap: 1.2rem;
+}
+
+.temp{
+    font-size: 2rem;
+}
+
+.city-name{
+    font-size: 2rem;
+}
+
+
+/* third-container */
+.third{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    /* border: 1px solid red; */
+}
+
+.humidity{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+.humidity-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.humidity-about>img{
+    width: 50px;
+}
+
+.value{
+    font-size: 1.2rem;
+}
+
+.wind{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+.wind-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.wind-about>img{
+    width: 50px;
+}
+
