@@ -39,6 +39,7 @@ img{
     gap: 25px;
     /* border: 1px solid red; */
     width: 90%;
+    height: 10%;
 }
 
 #search-bar{
@@ -75,13 +76,14 @@ img{
     align-items: center;
     margin: 25px 0;
     gap: 1.2rem;
+    height: 50%;
 }
 
 .temp{
     font-size: 2rem;
 }
 
-.city-name{
+.city{
     font-size: 2rem;
 }
 
@@ -93,6 +95,7 @@ img{
     justify-content: center;
     align-items: center;
     width: 90%;
+    height: 25%;
     /* border: 1px solid red; */
 }
 
@@ -116,7 +119,7 @@ img{
     width: 50px;
 }
 
-.value{
+.humidity-value{
     font-size: 1.2rem;
 }
 
@@ -140,3 +143,6 @@ img{
     width: 50px;
 }
 
+.wind-value{
+    font-size: 1.2rem;
+}
