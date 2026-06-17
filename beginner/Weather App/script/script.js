@@ -10,7 +10,7 @@ document.title = "Weather Application";
 
 
 // start
-const APIKEY = "08b2786b99f71edaff099c8055d82148";
+const APIKEY = "";
 const URL = "https://api.openweathermap.org/data/2.5/weather";
 
 const searchBar = document.querySelector("#search-bar");
