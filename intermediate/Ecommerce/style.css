@@ -343,3 +343,45 @@ body{
     border: 1px solid #088178;
     background-color: #088178;
 }
+
+/* banner 3 section */
+#banner3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+#banner3 .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("images/banner/b7.jpg");
+    min-width: 30%;
+    height: 30vh;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner3 h2{
+    color: #fff;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+#banner3 h3{
+    font-size: 15px;
+    font-weight: 800;
+    color: #ec544e;
+}
+
+#banner3 .banner-box2{
+    background-image: url("images/banner/b4.jpg");
+}
+#banner3 .banner-box3{
+    background-image: url("images/banner/b18.jpg");
+}
