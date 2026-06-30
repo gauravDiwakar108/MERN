@@ -1,0 +1,36 @@
+@import url("style.css");
+
+@media screen and (max-width: 780px){
+    .navlist,
+    .desktop-action .btn{
+        display: none;
+    }
+
+    .desktop-action .hamburger{
+        display: block;
+    }
+
+    .mobile-menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        position: absolute;
+        top: 20%;
+        left: -100%;
+        transform: translateX(-50%);
+        width: 20rem;
+        padding: 2rem;
+        background: var(--pure-white);
+        border: .1rem solid var(--gold-finger);
+        border-radius: 2rem;
+        box-shadow: rgba(0, 0, 0, 0.05) 8px 8px 8px, rgba(0, 0, 0, 0.05) 8px 8px 8px inset;
+        transition: all .5s ease;
+    }
+
+    .mobile-menu-active{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
