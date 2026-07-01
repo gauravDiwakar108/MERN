@@ -1,0 +1,49 @@
+@import url("style.css");
+
+.hero-section{
+    min-height: calc(100vh - 14vh);
+}
+
+.content,
+.image-container{
+    flex: 1;
+    flex-basis: 300px;
+}
+
+h1{
+    font-size: 5.6vw;
+    color: var(--lead);
+}
+
+h1 span{
+    color: var(--gold-finger);
+}
+
+p{
+    font-size: 1.25rem;
+    color: grey;
+    line-height: 1.8rem;
+    font-weight: 400;
+}
+
+.para{
+    margin-block: 2rem;
+    max-width: 550px;
+}
+
+.social-icon{
+    background: var(--hint-yellow);
+    width: 3rem;
+    aspect-ratio: 1;
+    border-radius: 1rem;
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 1px;
+    transition: .2s ease;
+}
+
+.social-icon:hover{
+    background: var(--lead);
+    color: #fff;
+}
