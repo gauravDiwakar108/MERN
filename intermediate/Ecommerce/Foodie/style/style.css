@@ -94,3 +94,7 @@ h3{
     color: var(--lead);
 }
 
+h4{
+    font-size: 1.8rem;
+    color: var(--lead);
+}

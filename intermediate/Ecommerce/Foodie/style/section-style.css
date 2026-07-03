@@ -65,3 +65,25 @@ p{
 }
 
 /* SECTION 02 STYLE */
+
+.order-card{
+    flex: 1;
+    flex-basis: 300px;
+    padding: 0 1rem 2rem 1rem;
+    background: var(--pure-white);
+    border: .1rem solid var(--gold-finger);
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.05) 8px 8px 8px, rgba(0, 0, 0, 0.05) 8px 8px 8px inset;
+}
+.order-card img{
+    width: 15rem;
+    filter: drop-shadow(
+        rgba(0, 0, 0, 0.2) 0 10px 10px
+    );
+}
+
+.order-card .prize{
+    font-size: 1.7rem;
+    color: var(--gold-finger);
+    padding: 1.3rem 0 2rem 0;
+}
