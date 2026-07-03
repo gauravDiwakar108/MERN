@@ -38,6 +38,9 @@
     }
 
     /* SECTION STYLING */
+
+    /* HERO SECTION */
+
     h1{
         font-size: 3.6rem;
     }
@@ -52,5 +55,10 @@
 
     .gap-4{
         gap: 4rem;
+    }
+
+    /* SECTION 01 */
+    h2{
+        font-size: 3rem;
     }
 }

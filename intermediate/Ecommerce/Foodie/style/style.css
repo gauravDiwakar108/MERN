@@ -62,3 +62,35 @@ img{
     margin: auto;
     display: block;
 }
+
+.p-top{
+    padding-top: 10rem;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.mt-4{
+    margin-bottom: 4rem;
+}
+
+h5{
+    font-size: 1.2rem;
+    letter-spacing: .2rem;
+    color: var(--gold-finger);
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 3.7rem;
+    text-transform: capitalize;
+    color: var(--lead);
+}
+
+h3{
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: var(--lead);
+}
+
