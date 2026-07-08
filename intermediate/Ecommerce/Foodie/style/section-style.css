@@ -90,6 +90,12 @@ p {
 
 /* SECTION 03 STYLE */
 
+.review-container{
+  width: 650px;
+  max-width: 100%;
+  flex: 1;
+}
+
 .swiper {
   width: 100%;
   height: 100%;
@@ -110,4 +116,14 @@ p {
 
 .fa-star{
     color: var(--gold-finger);
+}
+
+.arrow{
+  width: 2.5rem;
+  aspect-ratio: 1;
+  border-radius: 100vw;
+  background: var(--gold-finger);
+  color: var(--lead);
+  text-align: center;
+  line-height: 2.5rem;
 }
