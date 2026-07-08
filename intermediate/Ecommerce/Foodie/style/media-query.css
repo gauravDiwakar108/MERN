@@ -61,4 +61,13 @@
     h2{
         font-size: 3rem;
     }
+
+    /* section 4 */
+    .app-container{
+        padding: 2.2rem;
+    }
+
+    .app-container .content h2{
+        font-size: 2.5rem;
+    }
 }

@@ -127,3 +127,19 @@ p {
   text-align: center;
   line-height: 2.5rem;
 }
+
+/* SECTION 4 STYLE */
+
+.app-container{
+  background: var(--hint-yellow);
+  padding: 3rem 6rem;
+  border-radius: 3rem;
+}
+
+.app-container .content h2{
+  font-size: 4.5rem;
+}
+
+.app-container .image-container img{
+  width: 25rem;
+}
