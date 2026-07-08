@@ -79,6 +79,10 @@ img{
     margin-top: 0.5rem;
 }
 
+.m-auto{
+    margin: auto;
+}
+
 h5{
     font-size: 1.2rem;
     letter-spacing: .2rem;
