@@ -7,7 +7,7 @@ const TaskList = () => {
                     <h4 className="text-sm">20 Feb 2024</h4>
                 </div>
                 <h2 className="mt-5 text-2xl font-semibold text-shadow-md text-shadow-black/30">Make a Youtube Video</h2>
-                <p className="text-sm mt-2 text-shadow-md text-shadow-black/30">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus exercitationem officia debitis excepturi rem itaque!</p>
+                <p className="text-sm mt-2 text-shadow-md text-shadow-black/50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus exercitationem officia debitis excepturi rem itaque!</p>
             </div>
         </div>
     )
