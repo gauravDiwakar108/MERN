@@ -1,8 +1,15 @@
 const employees = [
     {
         "id": 1,
-        "email": "john.smith@example.com",
+        "name": "John Smith",
+        "email": "john@e.com",
         "password": "123",
+        "taskCounts": {
+            "active": 2,
+            "newTask": 1,
+            "completed": 1,
+            "failed": 1
+        },
         "tasks": [
             {
                 "active": true,
@@ -48,8 +55,15 @@ const employees = [
     },
     {
         "id": 2,
+        "name": "Emma Johnson",
         "email": "emma.johnson@example.com",
         "password": "123",
+        "taskCounts": {
+            "active": 2,
+            "newTask": 1,
+            "completed": 1,
+            "failed": 0
+        },
         "tasks": [
             {
                 "active": true,
@@ -85,8 +99,15 @@ const employees = [
     },
     {
         "id": 3,
+        "name": "Liam Williams",
         "email": "liam.williams@example.com",
         "password": "123",
+        "taskCounts": {
+            "active": 3,
+            "newTask": 1,
+            "completed": 1,
+            "failed": 1
+        },
         "tasks": [
             {
                 "active": true,
@@ -142,8 +163,15 @@ const employees = [
     },
     {
         "id": 4,
+        "name": "Olivia Brown",
         "email": "olivia.brown@example.com",
         "password": "123",
+        "taskCounts": {
+            "active": 2,
+            "newTask": 1,
+            "completed": 1,
+            "failed": 1
+        },
         "tasks": [
             {
                 "active": true,
@@ -189,8 +217,15 @@ const employees = [
     },
     {
         "id": 5,
+        "name": "Noah Davis",
         "email": "noah.davis@example.com",
         "password": "123",
+        "taskCounts": {
+            "active": 3,
+            "newTask": 1,
+            "completed": 2,
+            "failed": 1
+        },
         "tasks": [
             {
                 "active": true,
@@ -254,24 +289,25 @@ const employees = [
             }
         ]
     }
-]
+];
 
 const admin = [
     {
         "id": 1,
+        "name": "Admin",
         "email": "admin@example.com",
         "password": "123"
     }
-]
+];
 
-export const setLocalStorage = () =>{
+
+export const setLocalStorage = () => {
     localStorage.setItem('employees', JSON.stringify(employees));
     localStorage.setItem('admin', JSON.stringify(admin));
 }
-export const getLocalStorage = () =>{
+export const getLocalStorage = () => {
     const employees = JSON.parse(localStorage.getItem('employees'));
     const admin = JSON.parse(localStorage.getItem('admin'));
 
-    return {employees, admin};
-
+    return { employees, admin };
 }
