@@ -13,9 +13,79 @@
         <nav>
             <ul class="flex justify-between items-center p-4 border">
                 <li class="text-3xl font-semibold">Design Studios</li>
-                <li class="text-3xl font-thin"><i class="fa-solid fa-bars" style="color: rgb(0, 0, 0);"></i></li>
+                <li id="menuBtn" class="text-3xl font-thin"><i class="fa-solid fa-bars" style="color: rgb(0, 0, 0);"></i>
+                </li>
             </ul>
         </nav>
+
+        <div id="overlay" class="fixed inset-0 z-40 bg-black/60"></div>
+
+        <div
+        id="sidebar"
+            class="fixed left-0 top-0 z-50 h-screen w-80 transform bg-black text-white transition-transform duration-300 ease-in-out">
+
+            <!-- Close -->
+            <button id="closeBtn" class="absolute right-6 top-4 text-5xl font-light">
+                &times;
+            </button>
+
+            <ul class="mt-24 space-y-6 px-12">
+                <li>
+                    <a href="#" class="text-2xl hover:text-gray-300">
+                        Real Estate Agency
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="text-2xl hover:text-gray-300">
+                        Real Estate Agency
+                    </a>
+                </li>
+
+                <li class="pl-16">
+                    <a href="#" class="text-xl hover:text-gray-300">
+                        Home 1
+                    </a>
+                </li>
+
+                <li class="pl-16">
+                    <a href="#" class="text-xl hover:text-gray-300">
+                        Page 1
+                    </a>
+                </li>
+
+                <li class="pl-16">
+                    <a href="#" class="text-xl hover:text-gray-300">
+                        Page 2
+                    </a>
+                </li>
+
+                <li class="pl-16">
+                    <a href="#" class="text-xl hover:text-gray-300">
+                        Page 3
+                    </a>
+                </li>
+
+                <li class="pl-16">
+                    <a href="#" class="text-xl hover:text-gray-300">
+                        Page 4
+                    </a>
+                </li>
+
+                <li class="pl-16">
+                    <a href="#" class="text-xl hover:text-gray-300">
+                        Page 5
+                    </a>
+                </li>
+
+                <li class="pl-16">
+                    <a href="#" class="text-xl hover:text-gray-300">
+                        Page 6
+                    </a>
+                </li>
+            </ul>
+
+        </div>
     </header>
     <main>
 
@@ -276,6 +346,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
