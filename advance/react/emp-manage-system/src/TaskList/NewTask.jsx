@@ -1,7 +1,7 @@
 const NewTask = ({data}) => {
     // console.log(data);
     return (
-        <div className="shrink-0 h-full w-75 bg-blue-400 rounded-xl p-5">
+        <div className="shrink-0 h-full w-75 bg-yellow-400 rounded-xl p-5">
             <div className="flex justify-between items-center">
                 <h3 className="bg-red-600 px-3 py-1 rounded text-sm">{data.category}</h3>
                 <h4 className="text-sm">{data.taskDate}</h4>
