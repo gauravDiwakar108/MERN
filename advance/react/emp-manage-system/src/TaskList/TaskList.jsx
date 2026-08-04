@@ -4,7 +4,7 @@ import FailedTask from "./FailedTask"
 import NewTask from "./NewTask"
 
 const TaskList = ({ data }) => {
-    console.log(data);
+    // console.log(data);
     return (
         <div id='tasklist' className="flex items-center justify-between gap-5 flex-nowrap h-[55%] w-full mt-10 overflow-x-auto">
             {

@@ -5,7 +5,7 @@ const AcceptTask = ({data}) => {
                 <h3 className="bg-red-600 px-3 py-1 rounded text-sm">{data.category}</h3>
                 <h4 className="text-sm">{data.taskDate}</h4>
             </div>
-            <h2 className="mt-5 text-2xl font-semibold text-shadow-md text-shadow-black/30">Make a Youtube Video</h2>
+            <h2 className="mt-5 text-2xl font-semibold text-shadow-md text-shadow-black/30">{data.taskTitle}</h2>
             <p className="text-sm mt-2 text-shadow-md text-shadow-black/50">{data.taskDescription}</p>
 
             <div className='flex justify-between mt-4'>

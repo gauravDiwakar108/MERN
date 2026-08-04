@@ -3,10 +3,10 @@ import { AuthContext } from "../../context/AuthProvider"
 
 const AllTask = () => {
 
-  const { admin, employees } = useContext(AuthContext);
+  const [userData, setUserData] = useContext(AuthContext);
 
-  console.log(admin);
-  console.log(employees);
+  // console.log(admin);
+  // console.log(userData);
 
   return (
 
@@ -21,8 +21,8 @@ const AllTask = () => {
 
       <div className='h-[80%] overflow-auto scrollbar-none'>
         {
-          employees.map((e) => {
-            return <div className="bg-gray-900 py-1 px-4 flex justify-between rounded mb-2">
+          userData.map((e, idx) => {
+            return <div key={idx} className="bg-gray-900 py-1 px-4 flex justify-between rounded mb-2">
               <h2 className='w-1/6 bg-emerald-600 rounded px-2 hover:scale-105 transition-all ease-in-out duration-150'>{e.name}</h2>
               <h3 className='w-1/5 bg-blue-800 rounded px-2 hover:scale-105 transition-all ease-in-out duration-150'>{e.taskCounts.newTask}</h3>
               <h5 className='w-1/5 bg-yellow-700 rounded px-2 hover:scale-105 transition-all ease-in-out duration-150'>{e.taskCounts.active}</h5>
