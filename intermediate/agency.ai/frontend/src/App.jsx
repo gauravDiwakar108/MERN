@@ -1,9 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Navbar from './Components/Navbar'
 
 const App = () => {
+
+  const [theme, setTheme] = useState(localStorage.getItem('theme') ? localStorage.getItem('theme') : 'light');
+
   return (
-    <div>
-      // 15:19
+    <div
+      className='dark:bg-black relative'
+    >
+      <Navbar theme={theme} setTheme={setTheme}/>
+
+      {/* 44:55:00 */}
     </div>
   )
 }
