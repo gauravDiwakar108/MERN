@@ -87,6 +87,17 @@ section .infos {
 /* Board Style */
 
 .board {
-    flex-grow: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(30px, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(30px, 1fr));
+  flex-grow: 1;
   border: 1px solid var(--border-primary-color);
+  border-radius: 2px;
+}
+
+.block{
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--border-primary-color);
+  border-radius: 2px;
 }
