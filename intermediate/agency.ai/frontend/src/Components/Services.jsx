@@ -1,5 +1,5 @@
-import React from 'react'
 import assets from '../assets/assets'
+import ServiceCard from './ServiceCard'
 import Title from './Title'
 
 const Services = () => {
@@ -28,18 +28,19 @@ const Services = () => {
     ]
 
     return (
-        <div
-            className='relative flex flex-col items-center gap-7 px-4 sm:px-12 lg:px-24 xl:px-40 pt-30 text-gray-700 dark:text-white'
-            id='services'
-        >
-            <img
-                className='absolute -top-110 -left-70 -z-1 dark:hidden'
-                src={assets.bgImage2} alt=""
-            />
+        <div className='relative flex flex-col items-center gap-7 px-4 sm:px-12 lg:px-24 xl:px-40 pt-30 text-gray-700 dark:text-white' id='services'>
+            <img className='absolute -top-110 -left-70 -z-1 dark:hidden' src={assets.bgImage2} alt="" />
 
             <Title
                 title='How can we help?'
-                desc='From strategy to execution, we craft digital solutions that move your business forward.' />
+                desc='From strategy to execution, we craft digital solutions that move your business forward.'
+            />
+
+            <div className="flex flex-col md:grid grid-cols-2">
+                {servicesData.map((service, index) => (
+                    <ServiceCard key={index} service={service} index={index} />
+                ))}
+            </div>
         </div>
     )
 }
