@@ -13,8 +13,8 @@ body {
 :root {
   /* background-color */
   --bg-primary-color: #0c0c0c;
-  --bg-fill-color: #fdfdfc;
-  --bg-food-color: #ff3b3b;
+  --bg-fill-color: #83ba56;
+  --bg-food-color: #d53535;
 
   /* text-color */
   --text-primary-color: #f0f0f0;
@@ -113,7 +113,7 @@ section .infos {
   /* width: 80px;
   height: 80px; */
   border: 1px solid var(--border-primary-color);
-  border-radius: 2px;
+  border-radius: 25%;
 }
 
 .fill {
