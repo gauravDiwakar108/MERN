@@ -64,5 +64,3 @@ const Footer = ({ theme }) => {
 }
 
 export default Footer
-
-// video -> 1:53:00
