@@ -151,4 +151,10 @@ canvas {
   max-height: 80vh;
 }
 
+.presets{
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gutter-md);
+}
+
 /* 1:50:00 */
